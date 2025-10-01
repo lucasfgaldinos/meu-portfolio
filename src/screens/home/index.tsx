@@ -1,5 +1,10 @@
-import { Hero } from "../../containers";
+import { About, Hero } from "../../containers";
 
 export function Home() {
-	return <Hero />;
+	return (
+		<>
+			<Hero />
+			<About />
+		</>
+	);
 }
