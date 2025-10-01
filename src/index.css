@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 
 @theme {
+	--font-figtree: "Figtree", sans-serif;
+
 	--color-dark: #000000;
 	--color-neutral: #686d76;
 	--color-light: #f8fafc;
 }
 
 body {
-	@apply bg-dark;
+	@apply bg-dark font-figtree;
 }
 
 .section-container {
