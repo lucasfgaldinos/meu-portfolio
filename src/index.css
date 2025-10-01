@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+	--color-dark: #000000;
+	--color-neutral: #686d76;
+	--color-light: #f8fafc;
+}
+
+body {
+	@apply bg-dark;
+}
+
+.section-container {
+	@apply max-w-7xl mx-auto px-4 py-6;
+}
