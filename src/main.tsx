@@ -1,8 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { Home } from "./screens/home";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
-		<h1>Hello, world!</h1>
+		<Home />
 	</StrictMode>,
 );
