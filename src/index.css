@@ -5,7 +5,8 @@
 	--font-figtree: "Figtree", sans-serif;
 
 	--color-dark: #000000;
-	--color-neutral: #686d76;
+	--color-bg-card: #0f0e0e;
+	--color-neutral: #434242;
 	--color-light: #f8fafc;
 }
 
@@ -15,4 +16,8 @@ body {
 
 .section-container {
 	@apply max-w-7xl mx-auto px-4 py-6 md:px-20 md:py-32;
+}
+
+.white-text-shadow {
+	text-shadow: 0px 0px 10px #ffffff;
 }
