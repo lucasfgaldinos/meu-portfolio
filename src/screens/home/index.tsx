@@ -1,5 +1,5 @@
 import { DarkVeil } from "../../components/DarkVeil";
-import { About, Final, Footer, Hero, Skills } from "../../containers";
+import { About, Final, Footer, Hero, Projects, Skills } from "../../containers";
 
 export function Home() {
 	return (
@@ -9,6 +9,7 @@ export function Home() {
 			<Hero />
 			<About />
 			<Skills />
+			<Projects />
 			<Final />
 			<Footer />
 		</>
