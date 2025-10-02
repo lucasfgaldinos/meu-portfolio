@@ -1,11 +1,7 @@
-import { DarkVeil } from "../../components/DarkVeil";
-
 export function Hero() {
 	return (
-		<main className="w-full h-screen">
-			<DarkVeil speed={1} warpAmount={2.5} />
-
-			<div className="absolute inset-0 flex flex-col items-center justify-center">
+		<section>
+			<div className="section-container flex flex-col items-center justify-center h-screen">
 				<h1
 					className={
 						"white-text-shadow text-8xl font-light text-light text-center"
@@ -21,6 +17,6 @@ export function Hero() {
 					Desenvolvedor Web Full Stack
 				</h2>
 			</div>
-		</main>
+		</section>
 	);
 }

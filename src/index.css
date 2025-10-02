@@ -11,7 +11,7 @@
 }
 
 body {
-	@apply bg-dark font-figtree text-light;
+	@apply bg-transparent font-figtree text-light;
 }
 
 .section-container {
