@@ -11,6 +11,7 @@ export const projects: Projects[] = [
 			"Desenvolvimento de componentes e modais para um WebApp de Academia, utilizando HTML, CSS e JavaScript. Projeto entregue dentro do prazo, com código organizado e cliente satisfeito com o resultado.",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		banner: freelaGbuddyImg,
+		links: {},
 	},
 	{
 		title: "EasyBills – Dashboard Financeiro",
@@ -27,7 +28,9 @@ export const projects: Projects[] = [
 			"Firebase",
 		],
 		banner: easybillsImg,
-		repoLink: "https://github.com/lucasfgaldinos/easybills-interface",
+		links: {
+			repository: "https://github.com/lucasfgaldinos/easybills-interface",
+		},
 	},
 	{
 		title: "Habitus – Dashboard Interativo de Hábitos e Ciclos de Foco",
@@ -43,7 +46,9 @@ export const projects: Projects[] = [
 			"MongoDB",
 		],
 		banner: habitusImg,
-		repoLink: "https://github.com/lucasfgaldinos/habitus-interface",
+		links: {
+			repository: "https://github.com/lucasfgaldinos/habitus-interface",
+		},
 	},
 	{
 		title: "Atlas Burger – Hamburgueria Digital",
@@ -60,7 +65,9 @@ export const projects: Projects[] = [
 			"MongoDB",
 		],
 		banner: atlasburgerImg,
-		repoLink: "https://github.com/lucasfgaldinos/atlas-burger-interface",
+		links: {
+			repository: "https://github.com/lucasfgaldinos/atlas-burger-interface",
+		},
 	},
 	{
 		title: "PetCare - Landing Page",
@@ -68,7 +75,9 @@ export const projects: Projects[] = [
 			"Landing page desenvolvida com Next.js e TypeScript, projetada para oferecer uma experiência visual limpa, interativa e envolvente. Utiliza Tailwind CSS para uma estilização ágil e consistente, combinada com componentes sofisticados do shadcn/ui, animações suaves e carrosséis dinâmicos para garantir um design atraente.Uma página leve, funcional e visualmente elgante.",
 		technologies: ["React", "TailwindCSS", "TypeScript"],
 		banner: atlasburgerImg,
-		repoLink: "https://github.com/lucasfgaldinos/petcare",
-		deployLink: "https://petcareoficial.netlify.app/",
+		links: {
+			deploy: "https://petcareoficial.netlify.app/",
+			repository: "https://github.com/lucasfgaldinos/petcare",
+		},
 	},
 ];
