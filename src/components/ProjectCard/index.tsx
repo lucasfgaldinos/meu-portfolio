@@ -28,7 +28,9 @@ export function ProjectCard() {
 					</div>
 				</div>
 
-				<HighlightButton>Ver código</HighlightButton>
+				<div className="flex items-center justify-between">
+					<HighlightButton>Ver código</HighlightButton>
+				</div>
 			</div>
 		</div>
 	);
