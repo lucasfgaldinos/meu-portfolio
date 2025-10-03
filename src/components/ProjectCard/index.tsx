@@ -3,7 +3,7 @@ import { SkillCard } from "../SkillCard";
 
 export function ProjectCard() {
 	return (
-		<div className="max-w-md rounded-2xl flex flex-col bg-white/10 backdrop-blur-lg shadow-lg m-10 select-none">
+		<div className="max-w-md rounded-2xl flex flex-col bg-white/10 backdrop-blur-lg shadow-lg">
 			<div className="h-64 w-full">
 				<img
 					className="w-full h-full object-cover rounded-t-2xl"
