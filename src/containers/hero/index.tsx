@@ -1,3 +1,6 @@
+import { Button } from "react-scroll";
+import { HighlightButton } from "../../components/HighlightButton";
+
 export function Hero() {
 	return (
 		<section>
@@ -16,6 +19,19 @@ export function Hero() {
 				>
 					Desenvolvedor Web Full Stack
 				</h2>
+
+				<div className="flex items-center gap-7 mt-14">
+					<Button to="projects" smooth={true} duration={500}>
+						<HighlightButton>Ver projetos</HighlightButton>
+					</Button>
+					<a
+						href="/DesenvolvedorFullStack-LucasGaldino.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<HighlightButton>Ver CV </HighlightButton>
+					</a>
+				</div>
 			</div>
 		</section>
 	);
