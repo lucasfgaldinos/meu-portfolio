@@ -1,11 +1,10 @@
-import { About, Final, Footer, Hero, Projects, Skills } from "../../containers";
+import { About, Final, Footer, Hero, Projects } from "../../containers";
 
 export function Home() {
 	return (
 		<>
 			<Hero />
 			<About />
-			<Skills />
 			<Projects />
 			<Final />
 			<Footer />
