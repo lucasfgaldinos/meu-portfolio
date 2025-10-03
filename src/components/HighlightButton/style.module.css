@@ -36,7 +36,10 @@
 .highlight-button span {
 	position: relative;
 	z-index: 2;
-	display: inline-block;
+	display: flex;
+	width: fit-content;
+	gap: 8px;
+	align-items: center;
 	transition: all 0.3s ease;
 }
 
