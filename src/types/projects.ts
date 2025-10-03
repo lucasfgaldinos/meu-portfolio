@@ -3,6 +3,8 @@ export interface Projects {
 	description: string;
 	banner: string;
 	technologies: string[];
-	repoLink?: string;
-	deployLink?: string;
+	links: {
+		repository?: string;
+		deploy?: string;
+	};
 }

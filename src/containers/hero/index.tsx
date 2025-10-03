@@ -1,5 +1,5 @@
 import { Rocket, SquareArrowOutUpRight } from "lucide-react";
-import { Button } from "react-scroll";
+import { Link } from "react-scroll";
 import { HighlightButton } from "../../components/HighlightButton";
 
 export function Hero() {
@@ -22,11 +22,11 @@ export function Hero() {
 				</h2>
 
 				<div className="flex flex-col md:flex-row items-center gap-9 mt-16">
-					<Button to="projects" smooth={true} duration={500}>
+					<Link to="projects" smooth={true} duration={500}>
 						<HighlightButton>
 							Projetos de destaque <Rocket size={16} />
 						</HighlightButton>
-					</Button>
+					</Link>
 					<a
 						href="/DesenvolvedorFullStack-LucasGaldino.pdf"
 						target="_blank"

@@ -1,35 +1,42 @@
+import type { Projects } from "../../types/projects";
 import { HighlightButton } from "../HighlightButton";
 import { SkillCard } from "../SkillCard";
 
-export function ProjectCard() {
+export function ProjectCard({
+	title,
+	description,
+	banner,
+	links,
+	technologies,
+}: Projects) {
 	return (
-		<div className="max-w-md rounded-2xl flex flex-col bg-white/10 backdrop-blur-lg shadow-lg">
-			<div className="h-64 w-full">
+		<div className="max-w-md rounded-2xl flex flex-col bg-bg-card shadow-lg">
+			<div className="w-full relative overflow-hidden">
 				<img
-					className="w-full h-full object-cover rounded-t-2xl"
-					src="https://tse2.mm.bing.net/th/id/OIP.9jaEXvLBeePFRtuw6W3wDAHaEn?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
-					alt="Imagem"
+					className="w-full h-64 object-cover rounded-t-2xl brightness-75"
+					src={banner}
+					alt={`Banner do projeto.`}
 				/>
 			</div>
-			<div className="p-2 md:p-4 flex flex-col justify-between h-full">
+			<div className="p-2 md:p-4 flex flex-col justify-between">
 				<div>
-					<strong className="text-base md:text-xl">Projeto Superman</strong>
+					<strong className="text-base md:text-xl">{title}</strong>
 
-					<p className="text-xs md:text-base mt-4">
-						Filme de 2025 com participação especial de Lucas Galdino, estrela
-						mundial da programação. Contudo, ele Lucas
-					</p>
+					<hr className="mt-4 text-neutral" />
+
+					<p className="text-xs md:text-base mt-4">{description}</p>
 
 					<div className="flex flex-wrap gap-2 mt-4">
-						<SkillCard name="React" />
-						<SkillCard name="TailwindCSS" />
-						<SkillCard name="Zod" />
-						<SkillCard name="Kriptonita" />
+						{technologies.map((t) => (
+							<SkillCard key={t} name={t} />
+						))}
 					</div>
 				</div>
 
 				<div className="flex items-center justify-between">
-					<HighlightButton>Ver código</HighlightButton>
+					{links.deploy && links.repository ? (
+						<HighlightButton>Acessar</HighlightButton>
+					) : undefined}
 				</div>
 			</div>
 		</div>
