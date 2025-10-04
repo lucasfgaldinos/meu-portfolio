@@ -5,7 +5,7 @@ import { projects } from "../../data/projects";
 export function Projects() {
 	return (
 		<Element name="projects">
-			<section className="section-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+			<section className="section-container flex flex-col items-center lg:items-stretch lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
 				{projects.map((p) => (
 					<ProjectCard
 						title={p.title}
