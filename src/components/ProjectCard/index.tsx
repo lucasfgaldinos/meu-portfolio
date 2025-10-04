@@ -12,9 +12,9 @@ export function ProjectCard({
 }: Projects) {
 	return (
 		<div className="max-w-md rounded-2xl flex flex-col bg-bg-card hover:shadow-[0_0_12px_#7c3aed] hover:border-indigo-800 border border-transparent transition-all duration-200 ease-in-out">
-			<div className="h-56 w-full relative overflow-hidden">
+			<div className="h-52 w-full relative overflow-hidden">
 				<img
-					className="w-full h-56 object-cover rounded-t-2xl brightness-75"
+					className="w-full h-52 object-cover rounded-t-2xl brightness-75"
 					src={banner}
 					alt={`Banner do projeto.`}
 				/>
