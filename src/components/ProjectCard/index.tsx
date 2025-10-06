@@ -1,7 +1,7 @@
 import { Lock, SquareArrowOutUpRight } from "lucide-react";
 import type { Projects } from "../../types/projects";
-import { HighlightButton } from "../HighlightButton";
 import { SkillCard } from "../SkillCard";
+import "../../css/highlightButton.css";
 
 export function ProjectCard({
 	title,
@@ -37,10 +37,13 @@ export function ProjectCard({
 				<div className="flex items-end justify-between mt-8 flex-1">
 					<div>
 						{links.deploy ? (
-							<a href={links.deploy} target="_blank" rel="noopener noreferrer">
-								<HighlightButton>
-									Site <SquareArrowOutUpRight size={16} />
-								</HighlightButton>
+							<a
+								className="highlight-button"
+								href={links.deploy}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Site <SquareArrowOutUpRight size={16} />
 							</a>
 						) : undefined}
 					</div>
@@ -50,10 +53,9 @@ export function ProjectCard({
 							href={links.repository}
 							target="_blank"
 							rel="noopener noreferrer"
+							className="highlight-button"
 						>
-							<HighlightButton>
-								Código <SquareArrowOutUpRight size={16} />
-							</HighlightButton>
+							Código <SquareArrowOutUpRight size={16} />
 						</a>
 					) : undefined}
 
