@@ -44,7 +44,7 @@ export function Hero() {
 					href="https://github.com/lucasfgaldinos"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="text-light/70 hover:text-light text-xs md:text-base font-medium flex items-center gap-2"
+					className="text-light/70 hover:text-light text-xs md:text-base font-medium flex items-center gap-2 transition-colors"
 				>
 					GitHub <SquareArrowOutUpRight size={16} />
 				</a>
@@ -52,7 +52,7 @@ export function Hero() {
 					href="https://www.linkedin.com/in/lucas-fernando-galdino-da-silva/"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="text-light/70 hover:text-light text-xs md:text-base font-medium flex items-center gap-2"
+					className="text-light/70 hover:text-light text-xs md:text-base font-medium flex items-center gap-2 transition-colors"
 				>
 					LinkedIn <SquareArrowOutUpRight size={16} />
 				</a>

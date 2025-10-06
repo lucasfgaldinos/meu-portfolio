@@ -1,7 +1,7 @@
 export function About() {
 	return (
 		<section className="section-container">
-			<div className="flex flex-col gap-4 bg-bg-card p-4 md:p-10 rounded-xl w-full text-sm md:text-xl mx-auto text-light font-medium">
+			<div className="flex flex-col gap-4 bg-bg-card p-4 md:p-10 rounded-xl w-full text-sm md:text-lg mx-auto text-light font-medium">
 				<p>
 					Sou desenvolvedor web full stack em transição de carreira e, desde
 					sempre, apaixonado por tecnologia. Durante muitos anos, atuei na área
