@@ -58,7 +58,7 @@ export function ProjectCard({
 					) : undefined}
 
 					{!links.deploy && !links.repository ? (
-						<div className="flex items-center justify-center gap-2 text-light font-medium text-lg border border-light rounded-full w-full h-14">
+						<div className="flex items-center justify-center gap-2 text-light font-medium text-base border border-light rounded-full w-full h-14">
 							Projeto privado <Lock size={16} />
 						</div>
 					) : undefined}
