@@ -11,7 +11,7 @@ export function ProjectCard({
 	technologies,
 }: Projects) {
 	return (
-		<div className="max-w-md rounded-2xl flex flex-col bg-bg-card">
+		<div className="max-w-md rounded-2xl flex flex-col bg-bg-card border border-neutral">
 			<div className="h-52 w-full relative overflow-hidden">
 				<img
 					className="w-full h-52 object-cover rounded-t-2xl brightness-75"
