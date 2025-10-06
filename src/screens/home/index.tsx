@@ -1,4 +1,4 @@
-import { About, Final, Footer, Hero, Projects } from "../../containers";
+import { About, Footer, Hero, Projects } from "../../containers";
 
 export function Home() {
 	return (
@@ -6,7 +6,6 @@ export function Home() {
 			<Hero />
 			<About />
 			<Projects />
-			<Final />
 			<Footer />
 		</>
 	);

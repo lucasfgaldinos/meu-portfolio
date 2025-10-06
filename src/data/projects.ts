@@ -2,13 +2,14 @@ import atlasburgerImg from "../assets/atlasburger.png";
 import easybillsImg from "../assets/easybills.png";
 import freelaGbuddyImg from "../assets/freela-gbuddy.jpg";
 import habitusImg from "../assets/habitus.png";
+import petcareImg from "../assets/petcare.png";
 import type { Projects } from "../types/projects";
 
 export const projects: Projects[] = [
 	{
 		title: "Freelance - Workana",
 		description:
-			"Desenvolvimento de componentes e modais para um WebApp de Academia, utilizando HTML, CSS e JavaScript. Projeto entregue dentro do prazo, com código organizado e cliente satisfeito com o resultado.",
+			"Desenvolvimento de componentes e modais interativos para um aplicativo web de academia, utilizando HTML, CSS e JavaScript. Projeto entregue dentro do prazo, com código organizado e cliente satisfeito com o resultado.",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		banner: freelaGbuddyImg,
 		links: {},
@@ -35,11 +36,12 @@ export const projects: Projects[] = [
 	{
 		title: "Habitus – Dashboard Interativo de Hábitos e Ciclos de Foco",
 		description:
-			"MVP Full Stack de um Dashboard interativo para usuários acompanhar hábitos e no gerenciar ciclos de foco. Conta com autenticação via GitHub, registro diário de hábitos, controle de sessões de foco com tempos de foco e descanso, e dashboards com estatísticas interativas por período.",
+			"MVP Full Stack de um Dashboard interativo para usuários acompanharem hábitos e gerenciarem ciclos de foco. Conta com autenticação via GitHub, registro diário de hábitos, controle de sessões de foco com tempos de foco e descanso, e dashboards com estatísticas interativas por período.",
 		technologies: [
 			"React",
 			"CSS Modules",
 			"TypeScript",
+			"Docker",
 			"Node",
 			"Express",
 			"Mongoose",
@@ -58,10 +60,12 @@ export const projects: Projects[] = [
 			"React",
 			"TailwindCSS",
 			"TypeScript",
+			"Docker",
 			"Node",
 			"Express",
 			"SequelizeORM",
 			"PostgreSQL",
+			"Mongoose",
 			"MongoDB",
 		],
 		banner: atlasburgerImg,
@@ -72,9 +76,9 @@ export const projects: Projects[] = [
 	{
 		title: "PetCare - Landing Page",
 		description:
-			"Landing page desenvolvida com Next.js e TypeScript, projetada para oferecer uma experiência visual limpa, interativa e envolvente. Utiliza Tailwind CSS para uma estilização ágil e consistente, combinada com componentes sofisticados do shadcn/ui, animações suaves e carrosséis dinâmicos para garantir um design atraente.Uma página leve, funcional e visualmente elgante.",
+			"Landing page desenvolvida com Next.js e TypeScript, projetada para oferecer uma experiência visual limpa, interativa e envolvente. Utiliza Tailwind CSS para uma estilização ágil e consistente, combinada com componentes sofisticados do shadcn/ui, animações suaves e carrosséis dinâmicos para garantir um design atraente. Uma página leve, funcional e visualmente elegante.",
 		technologies: ["React", "TailwindCSS", "TypeScript"],
-		banner: atlasburgerImg,
+		banner: petcareImg,
 		links: {
 			deploy: "https://petcareoficial.netlify.app/",
 			repository: "https://github.com/lucasfgaldinos/petcare",
