@@ -1,5 +1,6 @@
 # 💼 Meu Portfólio
 Este é o repositório do meu site portfólio. Com o objetivo de falar um pouco sobre mim, apresentar meus projetos, habilidades e experiências profissionais.
+<a href="https://lucasgaldinodev.vercel.app">Clique aqui para ver</a>
 
 ## 🚀 Tecnologias
 
