@@ -10,4 +10,4 @@ Este é o repositório do meu site portfólio. Com o objetivo de falar um pouco 
 
 <hr />
 
-<img src="./src/assets/prints/hero.png" alt="Hero" />
+<img src="./src/assets/prints/Lucas Galdino - Portfólio.png" alt="Hero" />
